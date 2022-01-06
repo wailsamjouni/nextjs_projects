@@ -1,0 +1,65 @@
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  position: relative;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.container:hover .price {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.container:hover {
+  background-color: whitesmoke;
+}
+
+.img {
+  width: 500px;
+  height: 160px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.ingredient {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+
+.price {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 5px 15px;
+  color: #f4f9ff;
+  background-color: #008c45;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 1s;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.price:hover {
+  background-color: #f4040e;
+}

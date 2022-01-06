@@ -6,7 +6,7 @@ function List() {
 
     return (
         <div className={style.container}>
-            <h4 className={style.title}>You can order also our products</h4>
+            <h4 className={style.title}>You can order also other products</h4>
             <ul className={style.list}>
                 <a className={style.a} href='#'>Drinks</a>
                 <a className={style.a} href='#'>Sandwishes</a>
